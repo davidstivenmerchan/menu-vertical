@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+nav{
+    height: 100vh;
+    width: 50px;
+    background: rgb(120, 7, 155);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .5s;
+}
+
+nav img{
+    width: 200px;
+    border-radius: 50%;
+    
+}
+nav ul li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    display: none;
+    transition: .5s;
+    width: 100%;
+    border-radius: 10px;
+}
+
+nav ul li i{
+    margin: 0px 5px;
+}
+.perfil{
+    margin: 20px;
+    display: none;
+    transition: .5s;
+}
+nav:hover{
+    
+    width: 250px;
+}
+nav:hover .perfil{
+    display: block;
+    transition: .5s;
+}
+nav:hover li{
+    display: flex;
+    transition: .5s;
+}
+.iconos i{
+    margin: 20px;
+}
+
+nav:hover .iconos{
+    display: none;
+}
+li:hover{
+    background: white;
+    cursor: pointer;
+}
